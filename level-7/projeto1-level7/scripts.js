@@ -111,6 +111,9 @@ function escolha() {
     ]
 
     document.body.style.backgroundImage = `url('${backImages[0]}')`;
+    document.body.style.backgroundRepeat = 'no-repeat';
+    document.body.style.backgroundSize = 'cover';
+
     temporizadorchangeBG();
     historia(escolhas);
 }
