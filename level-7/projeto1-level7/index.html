@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto 1 - Level 7</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <div id="formulario">
+
+        <h2>Informações da História</h2>
+
+        <form name="dados" id="dados">
+            <input type="text" id="protagonista" placeholder="Nome do Protagonista">
+            <label for="monstro">Monstros</label>
+            <select name="monstro" id="monstro">
+                <option value="intergalaticos">Monstros Intergaláticos</option>
+                <option value="zumbis">Zumbis</option>
+                <option value="vampiros_franceses">Vampiros Franceses</option>
+            </select>
+            <label for="especie">Espécie do Protagonista</label>
+            <select name="especie" id="especie">
+                <option value="padawan">Padawan</option>
+                <option value="humano">Humano</option>
+                <option value="jacare">Jacaré</option>
+            </select>
+            <label for="armamento">Armamento</label>
+            <select name="armamento" id="armamento">
+                <option value="caneca">Caneca</option>
+                <option value="bankai">Bankai</option>
+                <option value="martelo">Martelo</option>
+            </select>
+            <label for="local">Local da História</label>
+            <select name="local" id="local">
+                <option value="tatooine">Tatooine</option>
+                <option value="japao">Japão</option>
+                <option value="franca">França</option>
+            </select>
+            <label for="acidente">Acidente Ocorrido</label>
+            <select name="acidente" id="acidente">
+                <option value="tempestade_solar">Tempestade Solar</option>
+                <option value="apocalipse">Apocalipse</option>
+                <option value="gremlin">Molharam um gremlin</option>
+            </select>
+            <div id="divBotao">
+                <button id="btnHistoria">Monte Sua História</button>
+            </div>
+        </form>
+    </div>
+
+    <div class="typewriter">
+        <h1></h1>
+    </div>
+
+    <script src="scripts.js"></script>
+</body>
+
+</html>
