@@ -46,9 +46,15 @@ input, select{
     margin-top: 1em;
     padding: 1em 8em;
     border: none;
-    background: limegreen;
+    background: rgb(52, 175, 52);
     font-weight: bold;
+    color: #444;
+    cursor: pointer;
+}
+
+#btnHistoria:hover {
     color: #111;
+    background: limegreen;
 }
 
 .typewriter {
@@ -65,6 +71,8 @@ input, select{
     border: 2px solid white;
     border-radius: 20px;
     padding: 1em;
+    /* background da div deixando fosco */
+    background: rgba(255, 255, 255, 0.5); 
 }
 
 h1 {
