@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Carter+One&family=Roboto:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header nav {
+    background-color: rgb(30, 30, 180);
+    width: 100%;
+    text-align: center;
+    font-size: 35px;
+    font-family: 'Carter One', 'Roboto', sans-serif;
+}
+
+#modal {
+    visibility: hidden;
+}
+
+html {
+    font-size: 50%;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    background-color: grey;
+    width: 100%;
+    margin: auto;
+    padding: 1rem 3rem;
+}
+
+label {
+    font-size: 3rem;
+    font-weight: bold;
+    padding: auto 10px;
+}
+
+input {
+    margin: 3.2rem;
+    border: 0;
+    border-radius: 0.2em;
+    font-size: 3rem;
+    width: 500px;
+}
+
+#btnBuscar {
+    width: 10em;
+    border: 0;
+    font-size: 2rem;
+    padding: 0.8rem;
+    border-radius: 1em;
+    font-weight: bold;
+    background-color: #3fcc52;
+    cursor: pointer;
+}
+
+form div input button:hover {
+    filter: brightness(0.95);
+}
+
+input[type=button] {
+    text-align: center;
+}
+
+table {
+    font-size: 1.6rem;
+    width: 100%;
+    margin-top: 16px;
+}
+
+th,
+td {
+    border-bottom: 0.5px solid #181616;
+    padding: 4px 16px;
+    text-align: center;
+}
+
+.rowText {
+    font-size: 2.5rem;
+}
+
+#iconPlay {
+    font-size: 3.5em;
+}
