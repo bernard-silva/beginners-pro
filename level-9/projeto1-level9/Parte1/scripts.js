@@ -5,7 +5,7 @@ async function requisicao() {
             "method": "GET",
             "headers": {
                 "x-rapidapi-host": "omgvamp-hearthstone-v1.p.rapidapi.com",
-                "x-rapidapi-key": "7f308c5df7mshc829ca4a43fbc68p1e566djsn0f051ddc1392"                
+                "x-rapidapi-key": "5765638b32msh90060a51b275666p17af44jsn131ba9121989"                
             }
         })
         .then(res => res.json())
