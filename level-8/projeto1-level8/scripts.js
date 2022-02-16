@@ -6,7 +6,7 @@ async function requisicao(valorBusca) {
         "method": "GET",
         "headers": {
             "x-rapidapi-host": "deezerdevs-deezer.p.rapidapi.com",
-            "x-rapidapi-key": "7f308c5df7mshc829ca4a43fbc68p1e566djsn0f051ddc1392"
+            "x-rapidapi-key": "your_key"
         }
     }).then(response => {
         try {
